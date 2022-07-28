@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle bonus-slot",
+        "command": "bonus-slot:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "bonus-slot",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "bonus-slot:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
